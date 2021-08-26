@@ -21,13 +21,12 @@ contract Consumer is ChainlinkClient {
    *
    * Kovan Testnet details: 
    * Link Token: 0xa36085F69e2889c224210F603D836748e7dC0088
-   * Oracle: 0xc57B33452b4F7BB189bB5AfaE9cc4aBa1f7a4FD8 (Chainlink DevRel)
-   *
+   * Oracle: 
    */
   constructor(
   ) {
     setChainlinkToken(0xa36085F69e2889c224210F603D836748e7dC0088);
-    setChainlinkOracle(0x45Fd8dF7E9348b14AfC145599F719DbE27977Fd9);
+    setChainlinkOracle();
   }
 
   /**
@@ -38,7 +37,7 @@ contract Consumer is ChainlinkClient {
     public payable
   {
     require(msg.value >= fee);
-    bytes32 specId = "f4392136843f4d008bab0e06ee4f36bf";
+    bytes32 specId = "Your Job Spec ID";
     uint256 payment = 10000000000000000000;
     Chainlink.Request memory req = buildChainlinkRequest(specId, address(this), this.fulfillBytes.selector);
     req.add("prompt", _prompt);
