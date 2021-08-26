@@ -31,7 +31,7 @@
 ```bash
 cd backend
 ```
-```bash
+```
 pip install -r requirements.txt
 ```
 * Add your PRIVATE_KEY in `.env`
@@ -46,10 +46,10 @@ pip install -r requirements.txt
 
 -Deploy the Consumer contract with brownie console:
 
-```bash
+```
 brownie console
 ```
-```bash
+```
 run('deploy')
 ```
 Save the Deployed Contract address
