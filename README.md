@@ -14,12 +14,16 @@
 
 ### Setup your Chainlink Node
 [Setup a chainlink node](https://docs.chain.link/docs/running-a-chainlink-node/)
+
 [Quickstart Template](https://github.com/itsdevcoffee/chainlink-fun)
+
 [Video Tutorial](https://youtu.be/jJOjyDpg1aA)
 
 ### Add Your External Adapter
 [OpenAI EA](https://github.com/jalbrekt85/CL-EA-OpenAI)
+
 [Add your EA to your node](https://docs.chain.link/docs/node-operators/)
+
 [EA Docs](https://docs.chain.link/docs/external-adapters/)
 
 
