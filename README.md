@@ -1,6 +1,4 @@
-# Myield Monorepo
-
-## OpenAI API Blockchain Template
+# OpenAI API Blockchain Template
 
 # Template using:
 **Backend**
