@@ -56,7 +56,7 @@ Save the Deployed Contract address
 
 ### Configure Your Frontend
 ```bash
-cd frontend
+cd next
 ```
 ```bash
 yarn install
